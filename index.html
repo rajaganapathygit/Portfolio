@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navibar">
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#About" style="--i:2">About</a>
+            <a href="#Skill"  style="--i:3">Skills</a>
+            <a href="#Contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rajaganapathy</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a Web Developer and a UI Designer</p>
+            <div class="home-sci">
+                <a href="#" style="--i:7"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#More About Me" class="btn-box">More About Me</a>
+        </div>
+        <div class="about-img">
+            <img src="pic.jpeg" alt="Formal photo of Rajaganapathy" class="profile-photo">
+        </div>
+    
+    </section>
+
+    <section class="about" id="About">
+        <div class="about-img">
+            <img src="pic.jpeg" alt="Formal photo of Rajaganapathy" class="profile-photo">
+        </div>
+        <div class="about-text">
+            <h2>About<span> Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>As a dedicated Computer Science Student, I am interested in problem solving and critical thinking. I am delighted to contribute my skills and enthusiasm to a dynamic team, fostering innovation and achieving excellence in the field.</p>
+            <a href="#" class="btn-box">More About ME</a>
+        </div>
+    </section>
+
+    <section class="skills" id="Skill">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="java logo.png" alt="Java Logo">
+                <p>Java</p>
+            </div>
+            <div class="skill-card">
+                <img src="Figma-logo.svg.png" alt="Figma Logo">
+                <p>Figma</p>
+            </div>
+            <div class="skill-card">
+                <img src="Canva_icon_2021.svg.png" alt="Canva Logo">
+                <p>Canva</p>
+            </div>
+            <div class="skill-card">
+                <img src="C++-Logo.wine.png" alt="C++ Logo">
+                <p>C++</p>
+            </div>
+            <div class="skill-card">
+                <img src="mysql_logo-removebg-preview.png" alt="SQL Logo">
+                <p>SQL</p>
+            </div>
+            <div class="skill-card">
+                <img src="png-transparent-logo-html-html5-thumbnail-removebg-preview.png" alt="Python Logo">
+                <p>HTML</p>
+            </div>
+            <div class="skill-card">
+                <img src="css_logo.jpg" alt="Python Logo">
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <img src="JavaScript-Logo.png" alt="Python Logo">
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Contact" class="contact-section">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> 9043437695</p>
+            <p><strong>Email:</strong> rajaganapathysaravanan@gmail.com</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rajaganapathy-saravanan-5b895a248/" target="_blank">Rajaganapathy Saravanan</a></p>
+            <p><strong>Resume:</strong> <a href="https://drive.google.com/file/d/1zqIrcvo-RH03wypCrIBC26OmGoDKmsmd/view?usp=drive_link" target="_blank"> Resume</a></p>
+        </div>
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
